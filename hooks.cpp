@@ -2,7 +2,7 @@
 
 /*
 
-Free open SRC thisisrico.de | Discord ThisIsRico#8696
+Free open SRC thisisrico.de best Website xD| Discord ThisIsRico#8696
 
 */
 
