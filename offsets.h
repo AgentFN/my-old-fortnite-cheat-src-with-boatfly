@@ -61,7 +61,7 @@ namespace offsets
 {
 	enum Main : uint64_t
 	{
-		UWorld = 0x9BAA2D0, 
+		UWorld = 0x9645CC0, 
 	};
 
 	enum World : uint64_t
@@ -131,11 +131,11 @@ namespace offsets
 
 	enum FortPawn : uint64_t
 	{
-		bIsDBNO = 0x552,
-		bIsDying = 0x538,
-		CurrentWeapon = 0x5D0,
-		LastFireTimeVerified = 0x900,
-		LastFireTime = 0x8FC,
+		bIsDBNO = 0x56E,
+		bIsDying = 0x540,
+		CurrentWeapon = 0x5F0,
+		LastFireTimeVerified = 0x910,
+		LastFireTime = 0x90C,
 	};
 
 	enum FortPickup : uint64_t
@@ -150,13 +150,13 @@ namespace offsets
 
 	enum FortItemDefinition : uint64_t
 	{
-		DisplayName = 0x80,
-		Tier = 0x64,
+		DisplayName = 0x88,
+		Tier = 0x6C,
 	};
 
 	enum FortPlayerStateAthena : uint64_t
 	{
-		TeamIndex = 0x0EC0,
+		TeamIndex = 0xED0,
 	};
 
 	enum FortWeapon : uint64_t
@@ -181,7 +181,7 @@ namespace offsets
 	};
 	enum BuildingContainer : uint64_t
 	{
-		bAlreadySearched = 0xC61,
+		bAlreadySearched = 0xC81,
 	};
 
 
