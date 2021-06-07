@@ -406,7 +406,7 @@ Free open SRC thisisrico.de | Discord ThisIsRico#5872
 					ImGui::SetCursorPosX(ImGui::GetWindowWidth() - (ImGui::CalcTextSize(xorstr("Credits"), NULL, TRUE).x + ImGui::GetWindowWidth()) / 2);
 					ImGui::Text(xorstr("Credits"));
 					ImGui::SeparatorRainbow(color_red, color_green, color_blue);
-					ImGui::Text(xorstr("Cheat made by ThisIsRico#8696"));
+					ImGui::Text(xorstr("Cheat made by ThisIsRico#5872"));
 
 
 
@@ -432,7 +432,7 @@ Free open SRC thisisrico.de | Discord ThisIsRico#5872
 
 		/*
 
-                                                                       Free open SRC thisisrico.de | Discord ThisIsRico#8696
+                                                                       Free open SRC thisisrico.de | Discord ThisIsRico#5872
 
 */
 
@@ -1009,22 +1009,7 @@ Free open SRC thisisrico.de | Discord ThisIsRico#5872
 					}
 
 
-				//	if (Settings.RapidFire1)
-				//	{
-					//	if (hooks::LocalPlayerPawn && hooks::LocalPlayerController)
-					//	{
-					//		if (Util::SpoofCall(GetAsyncKeyState, VK_LBUTTON))
-					//		{
-					//			setAllToSpeed(3.0);
-					//		}
-					//		else
-					//		{
-					//			setAllToSpeed(1.0);
-					//		}
-					//	}
-				//	}
-
-
+				
 					else if (wcsstr(name.c_str(), xorstr(L"FortPickupAthena")))
 					{
 						auto item = ReadPointer(pawn, offsets::FortPickup::PrimaryPickupItemEntry + offsets::FortItemEntry::ItemDefinition);
