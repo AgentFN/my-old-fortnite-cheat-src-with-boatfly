@@ -268,26 +268,6 @@ namespace Util {
 
 
 
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	VOID GetBoneLocation(float compMatrix[4][4], PVOID bones, DWORD index, float out[3]) {
 		float boneMatrix[4][4];
 		ToMatrixWithScale((float*)((PBYTE)bones + (index * 0x30)), boneMatrix);
@@ -402,25 +382,6 @@ namespace Util {
 		}
 		return a;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
