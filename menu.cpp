@@ -22,33 +22,8 @@ static const char* scammerxd[]
 	"SHIFT",
 	"SPACE",
 };
-/*if (Settings.HitBoxPos == 0) {
-			AimPointer = BONE_HEAD_ID;
-		}
-		else if (Settings.HitBoxPos == 1) {
-			AimPointer = BONE_NECK_ID;
-		}
-		else if (Settings.HitBoxPos == 2) {
-			AimPointer = BONE_CHEST_ID;
-		}
-		else if (Settings.HitBoxPos == 3) {
-			AimPointer = BONE_PELVIS_ID;
-		}
-		else if (Settings.HitBoxPos == 4) {
-			AimPointer = BONE_RIGHTELBOW_ID;
-		}
-		else if (Settings.HitBoxPos == 5) {
-			AimPointer = BONE_LEFTELBOW_ID;
-		}
-		else if (Settings.HitBoxPos == 6) {
-			AimPointer = BONE_RIGHTTHIGH_ID;
-		}
-		else if (Settings.HitBoxPos == 7) {
-			AimPointer = BONE_LEFTTHIGH_ID;
-		}
-		else if (Settings.HitBoxPos == 8) {
-			AimPointer = BONE_PELVIS_ID;
-		}*/
+
+
 static const char* hitboxes[]
 {
 	"Head",
