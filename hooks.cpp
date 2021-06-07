@@ -293,12 +293,6 @@ namespace hooks {
 	}
 
 
-
-
-
-
-
-
 	BOOLEAN GetTarget(FVector& out) {
 		if (!hooks::TargetPawn) {
 			return FALSE;
@@ -467,27 +461,7 @@ namespace hooks {
 					}
 					//}
 				}
-				/*if (Settings.killaura)
-				{
-					//if (hooks::LocalPlayerPawn && hooks::LocalPlayerController)
-					//{
-					if (hooks::LocalPlayerPawn && hooks::LocalPlayerController)
-					{
-						if (Util::SpoofCall(GetAsyncKeyState, 0x01))
-						{
-							setAllToSpeed(6.0f);
-						}
-						else
-						{
-							setAllToSpeed(1.0);
-						}
-					}
-					//}
-				}*/
-
 				
-
-
 
 				bool keystateA = true;
 				bool keystateB = false;
@@ -502,14 +476,6 @@ namespace hooks {
 					}
 				}
 				
-
-
-
-
-
-
-
-
 
 				if (Settings.Spinbot)
 				{
@@ -868,28 +834,6 @@ namespace hooks {
 
 		return ret;
 	}
-
-
-
-
-
-	
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
