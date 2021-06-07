@@ -106,10 +106,6 @@ namespace SettingsHelper
 		Settings.ESP.PlayerNameColor[2] = 210;
 		Settings.ESP.PlayerNameColor[3] = 255;
 
-	//	Settings.ESP.FovColor[0] = 0;
-	//	Settings.ESP.FovColor[1] = 255;
-	//	Settings.ESP.FovColor[2] = 255;
-	//	Settings.ESP.FovColor[3] = 255;
 
 		Settings.ESP.PlayerNameVisibleColor[0] = 255;
 		Settings.ESP.PlayerNameVisibleColor[1] = 255;
@@ -193,10 +189,6 @@ namespace SettingsHelper
 	VOID LoadTheme()
 	{
 		
-
-		
-
-
 		auto& style = ImGui::GetStyle();
 		style.WindowPadding = { 10.f , 10.f };
 		style.PopupRounding = 0.f;
