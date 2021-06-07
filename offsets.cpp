@@ -10,11 +10,6 @@ Free open SRC thisisrico.de | Discord ThisIsRico#5872
 #include "stdafx.h"
 
 
-
-
-
-
-
 namespace addresses
 {
 	PVOID* uWorld = 0;
