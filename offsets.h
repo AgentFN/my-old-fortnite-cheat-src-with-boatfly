@@ -65,7 +65,7 @@ namespace offsets
 
 	enum World : uint64_t
 	{
-		OwningGameInstance = 0x180,
+		OwningGameInstance = 0x9684130,
 		Levels = 0x138,
 	};
 
