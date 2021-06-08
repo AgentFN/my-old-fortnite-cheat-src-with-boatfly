@@ -55,7 +55,6 @@ namespace addresses
 }
 
 
-
 namespace offsets
 {
 	enum Main : uint64_t
