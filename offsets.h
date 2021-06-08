@@ -60,12 +60,12 @@ namespace offsets
 {
 	enum Main : uint64_t
 	{
-		UWorld = 0x9645CC0, 
+		UWorld = 0x985c970, 
 	};
 
 	enum World : uint64_t
 	{
-		OwningGameInstance = 0x180,
+		OwningGameInstance = 0x9684130,
 		Levels = 0x138,
 	};
 
