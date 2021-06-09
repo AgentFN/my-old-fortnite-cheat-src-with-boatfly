@@ -60,8 +60,14 @@ namespace offsets
 	BOOLEAN Initialize()
 	{
 		uint64_t BaseAddress = (uint64_t)GetModuleHandleA(NULL);
-		//auto uworld = Util::FindPattern(xorstr("\x48\x8B\x1D\x00\x00\x00\x00\x48\x85\xDB\x74\x3B\x41"), xorstr("xxx????xxxxxx"));
-		//addresses::uWorld = reinterpret_cast<decltype(addresses::uWorld)>(RELATIVE_ADDR(uworld, 7));
+		
+		
+               /////////////////////////////////Uworld autoupdater///////////////////////////////////////////////////////////////////////////////
+	       //                                                                                                                              //
+	       // auto uworld = Util::FindPattern(xorstr("\x48\x8B\x1D\x00\x00\x00\x00\x48\x85\xDB\x74\x3B\x41"), xorstr("xxx????xxxxxx"));    //
+	       // addresses::uWorld = reinterpret_cast<decltype(addresses::uWorld)>(RELATIVE_ADDR(uworld, 7));                                 //
+	       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		
 		addresses::GetPlayerName = Util::FindObject(xorstr(L"/Script/Engine.PlayerState.GetPlayerName"));
 		addresses::SetPawnVisibility = Util::FindObject(xorstr(L"/Script/FortniteGame.FortPawn.SetPawnVisibility"));
 		addresses::ClientSetRotation = Util::FindObject(xorstr(L"/Script/Engine.Controller.ClientSetRotation"));
