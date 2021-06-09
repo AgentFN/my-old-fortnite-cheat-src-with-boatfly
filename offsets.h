@@ -59,7 +59,7 @@ namespace offsets
 {
 	enum Main : uint64_t
 	{
-		UWorld = 0x985c970, 
+		UWorld = 0x6bd1a65a, 
 	};
 
 	enum World : uint64_t
